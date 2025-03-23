@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Score Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Final Score Calculator</h1>
+
+        <label for="fileInput" class="file-label">Choose File</label>
+        <input type="file" id="fileInput" accept=".csv">
+
+        <canvas id="chartCanvas"></canvas>
+
+        <div class="flex-container">
+            <div class="score-list">
+                <h2>Scores</h2>
+                <pre id="scoreList"></pre>
+            </div>
+            <div class="summary">
+                <h2>Overall Average Score</h2>
+                <span id="averageScore">-</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

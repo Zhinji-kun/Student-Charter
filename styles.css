@@ -1,0 +1,84 @@
+body {
+    background: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    color: #ffcc00;
+}
+
+.file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5722;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+canvas {
+    width: 100% !important;
+    height: 300px !important;
+    max-height: 400px;
+    background: #202020;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.score-list {
+    flex: 3;
+    text-align: left;
+    background: #2c2c2c;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.summary {
+    flex: 1;
+    text-align: center;
+    background: #2c2c2c;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+pre {
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.summary span {
+    font-size: 1.5em;
+    color: #00ffcc;
+    font-weight: bold;
+}
